@@ -188,15 +188,15 @@ html{
 	transform: scale(1.05);
 }
 
-#team .barber1{
+#team .barber1 {
 	object-position: 100% 0%;
 }
 
-#team .barber2{
+#team .barber2 {
 	object-position: 70% 0%;
 }
 
-#team .barber4{
+#team .barber4 {
 	object-position: 5% 0%;
 }
 

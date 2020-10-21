@@ -1,8 +1,13 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap'); */
 
-html{
+html, body{
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+body {
+	overflow-x: hidden;
 }
 
 .navbar-nav li{
@@ -122,6 +127,7 @@ html{
 	height: 100vh;
 	background-image: url("https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
   	background-size: cover;
+  	background-position: center top;
  	/* margin-bottom: 10rem; */
 }
 
@@ -135,16 +141,13 @@ html{
 	padding-top: 10rem;
 }
 
-#services .section {
-	margin-bottom: 10rem;
-}
-
 #services .card {
 	width: 300px;
 	height: 300px;
 	display:inline-block;
 	margin-left: 1%;
 	margin-right: 1%;
+	margin-bottom: 5%;
 	border: none;
 	
 	/* background-color: black;
@@ -204,26 +207,13 @@ html{
 	margin-bottom: 10%;
 }
 
-.barber-item {
-	display: flex;
+.barber-info {
 	align-items: center;
-	justify-content: center;
+  	justify-content: center;
 }
 
 .barer.barber-img {
 	flex: 1;
-}
-
-.barber-info{
-	margin-right: 20px;
-	width: 50%;
-}
-
-.barber-item:nth-child(odd){
-	flex-direction: row-reverse;
-}
-
-.row {
 }
 
 .list_style {
@@ -231,9 +221,6 @@ html{
 	text-align: left;
 }
 
-#prices .section {
-	
-}
 
 #prices span {
 	font-weight: 500;
@@ -241,6 +228,21 @@ html{
 
 #prices span:nth-child(even){
 	color: crimson;
+}
+
+.contact-map{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    margin-bottom: 5%;
+}
+.contact-map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 .footer {
@@ -251,4 +253,45 @@ html{
  	line-height: 60px; /* Vertically center the text there */
   	text-align: center;
 	margin-top: 10rem;
+}
+
+.barber-item p {
+	
+}
+
+@media screen and (max-width: 576px) {
+	.barber-item {
+		display: flex;
+		margin-bottom: 25%;
+	}
+
+	.heading h1{
+		font-size: 40px;
+	}
+
+	ul.list_style {
+		padding: 0;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.barber-item {
+		display: flex;
+		margin-bottom: 10%;
+	}
+}
+
+
+@media screen and (min-width: 992px) {
+	.barber-item {
+		display: flex;
+		margin-bottom: 5%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.barber-item {
+		display: flex;
+		margin-bottom: 5%;
+	}
 }

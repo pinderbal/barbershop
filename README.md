@@ -29,4 +29,4 @@ My project uses the following open source packages:
 <hr>
 <a href="https://pinderbal.github.io/barbershop/">Click here to check it out</a>
 <br>
-<a href="https://pinderbal.ca">My portfolio</a>
+<a href="https://pinderbal.ca">My Portfolio</a>

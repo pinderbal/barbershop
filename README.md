@@ -7,7 +7,7 @@
 <a href="https://pinderbal.github.io/barbershop/">![screenshot](barbershop-demo.gif?raw=true)</a>
 
 ## Sections
-
+Responsive design
 * Navbar
 * Hero
 * Services

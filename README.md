@@ -1,6 +1,6 @@
 <h1 align="center">
     Max's Barbershop
-    <h4 align="center">A barbershop website template/h4>
+    <h4 align="center">A barbershop website template</h4>
 </h1>
 
 
